@@ -6,7 +6,7 @@ use:
 
 1. [`tsup`](https://tsup.egoist.dev/) for file compiling.
 2. [`tsx`](https://tsx.is/) for file execution and content change monitoring.
-3. [`ESLint`](https://eslint.org/) for code formatting and linting. And also use my personal [eslint-config](https://github.com/tinywaves/eslint-config) for linting rules.
+3. [`ESLint`](https://eslint.org/) for code formatting and linting. And also use my personal [`eslint-config`](https://github.com/tinywaves/eslint-config) for linting rules.
 
 ## Install TypeScript and @types/node.
 
