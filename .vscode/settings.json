@@ -115,6 +115,7 @@
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "cSpell.words": [
+    "bumpp",
     "tsup"
   ]
 }
