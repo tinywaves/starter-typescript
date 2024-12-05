@@ -1,15 +1,34 @@
 {
   "name": "template-typescript",
+  "type": "module",
   "version": "0.0.1",
+  "description": "A template for typescript project",
   "author": {
     "name": "tinywaves",
     "email": "dhzhme@gmail.com"
   },
+  "license": "MIT",
+  "homepage": "https://github.com/tinywaves/template-typescript",
+  "keywords": [
+    "typescript",
+    "template",
+    "starter"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist"],
   "scripts": {
     "build": "tsup",
     "build:dev": "tsup --watch",
     "dev": "tsx watch --clear-screen=false src/index.ts",
-    "release": "bumpp"
+    "release": "bumpp",
+    "release:publish": "pnpm release && pnpm publish"
   },
   "devDependencies": {
     "@dhzh/eslint-config": "^0.15.1",
