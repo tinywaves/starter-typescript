@@ -28,15 +28,20 @@
     "build:dev": "tsup --watch",
     "dev": "tsx watch --clear-screen=false src/index.ts",
     "release": "bumpp",
-    "release:publish": "pnpm release && pnpm publish"
+    "release:publish": "pnpm release && pnpm publish",
+    "test": "vitest run",
+    "test:dev": "vitest",
+    "test:coverage": "pnpm run test --coverage"
   },
   "devDependencies": {
     "@dhzh/eslint-config": "^0.15.1",
     "@types/node": "^22.10.1",
-    "bumpp": "^9.8.1",
+    "@vitest/coverage-v8": "^2.1.8",
+    "bumpp": "^9.9.0",
     "eslint": "^9.16.0",
     "tsup": "^8.3.5",
     "tsx": "^4.19.2",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
   }
 }

@@ -1,3 +1,3 @@
-/* eslint-disable no-console */
-console.log('test');
-console.log('test');
+export function sum(a: number, b: number) {
+  return a + b;
+}
