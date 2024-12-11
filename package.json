@@ -1,7 +1,7 @@
 {
   "name": "template-typescript",
   "type": "module",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A template for typescript project",
   "author": {
     "name": "tinywaves",
