@@ -1,5 +1,5 @@
 {
-  "name": "template-typescript",
+  "name": "starter-typescript",
   "type": "module",
   "version": "0.0.5",
   "description": "A template for typescript project",
@@ -8,7 +8,7 @@
     "email": "dhzhme@gmail.com"
   },
   "license": "MIT",
-  "homepage": "https://github.com/tinywaves/template-typescript",
+  "homepage": "https://github.com/tinywaves/starter-typescript",
   "keywords": [
     "typescript",
     "template",
@@ -22,7 +22,9 @@
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
     "build:dev": "tsup --watch",
@@ -30,18 +32,18 @@
     "release": "bumpp",
     "release:publish": "pnpm release && pnpm publish",
     "test": "vitest run",
-    "test:dev": "vitest",
-    "test:coverage": "pnpm run test --coverage"
+    "test:coverage": "pnpm run test --coverage",
+    "test:dev": "vitest"
   },
   "devDependencies": {
-    "@dhzh/eslint-config": "^0.17.0",
-    "@types/node": "^22.10.5",
-    "@vitest/coverage-v8": "^2.1.8",
-    "bumpp": "^9.10.0",
-    "eslint": "^9.17.0",
-    "tsup": "^8.3.5",
-    "tsx": "^4.19.2",
-    "typescript": "^5.7.3",
-    "vitest": "^2.1.8"
+    "@dhzh/eslint-config": "^1.9.0",
+    "@types/node": "^24.3.0",
+    "@vitest/coverage-v8": "^3.2.4",
+    "bumpp": "^10.2.3",
+    "eslint": "^9.25.1",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.4",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
   }
 }
