@@ -2,6 +2,7 @@
   "name": "starter-typescript",
   "type": "module",
   "version": "0.0.5",
+  "packageManager": "pnpm@10.14.0",
   "description": "A template for typescript project",
   "author": {
     "name": "tinywaves",
@@ -25,6 +26,9 @@
   "files": [
     "dist"
   ],
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "build": "tsup",
     "build:dev": "tsup --watch",
