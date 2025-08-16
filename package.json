@@ -1,7 +1,7 @@
 {
   "name": "starter-typescript",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "packageManager": "pnpm@10.14.0",
   "description": "A template for typescript project",
   "author": {
