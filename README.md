@@ -15,7 +15,7 @@ use:
 You need to change some things before you start coding:
 
 1. `README.md` file.
-2. Change the `name`, `version`, `description`, `author`, `license`, `homepage`, `keywords` info in `package.json` file.
+2. Change the `name`, `version`, `description`, `author`, `license`, `homepage`, `keywords`, `repository` info in `package.json` file.
 3. Change the license info in `LICENSE` file.
 4. If you don't want to use GitHub workflow, delete the `.github` folder.
 5. Start coding in `src` and `test` folder.

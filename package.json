@@ -38,7 +38,7 @@
     "dist"
   ],
   "repository": {
-    "url": "https://github.com/tinywaves/starter-typescript",
+    "url": "git+https://github.com/tinywaves/starter-typescript.git",
     "type": "git"
   },
   "sideEffects": false,
