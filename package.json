@@ -5,12 +5,12 @@
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "^11.7.0",
+      "version": "^11.8.0",
       "onFail": "download"
     },
     "runtime": {
       "name": "node",
-      "version": "^26.3.0",
+      "version": "^24.17.0",
       "onFail": "download"
     }
   },
@@ -56,17 +56,17 @@
     "test:dev": "vitest"
   },
   "devDependencies": {
-    "@commitlint/cli": "^21.0.2",
-    "@commitlint/config-conventional": "^21.0.2",
-    "@dhzh/eslint-config": "^2.1.1",
-    "@types/node": "^25.9.3",
+    "@commitlint/cli": "^21.1.0",
+    "@commitlint/config-conventional": "^21.1.0",
+    "@dhzh/eslint-config": "^2.3.0",
+    "@types/node": "^26.0.0",
     "@vitest/coverage-v8": "^4.1.9",
     "bumpp": "^11.1.0",
     "changelogithub": "^14.0.0",
     "eslint": "^10.5.0",
     "husky": "^9.1.7",
-    "lint-staged": "^17.0.7",
-    "tsdown": "^0.22.2",
+    "lint-staged": "^17.0.8",
+    "tsdown": "^0.22.3",
     "tsx": "^4.22.4",
     "typescript": "^6.0.3",
     "vitest": "^4.1.9"
