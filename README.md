@@ -19,3 +19,12 @@ You need to change some things before you start coding:
 3. Change the license info in `LICENSE` file.
 4. If you don't want to use GitHub workflow, delete the `.github` folder.
 5. Start coding in `src` and `test` folder.
+6. If you want to publish your package to npm, you need to add a `prepack` script in `package.json` file. For example:
+
+```json
+{
+  "scripts": {
+    "prepack": "<your prepack script, e.g. pnpm run build>"
+  }
+}
+```
