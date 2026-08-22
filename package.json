@@ -58,7 +58,9 @@
     "release:publish": "pnpm release && pnpm publish --access public",
     "test": "vitest run",
     "test:coverage": "pnpm run test --coverage",
-    "test:dev": "vitest"
+    "test:dev": "vitest",
+    "version:update": "taze major",
+    "version:update:w": "taze major -w"
   },
   "devDependencies": {
     "@commitlint/cli": "^21.2.0",
@@ -71,6 +73,7 @@
     "eslint": "^10.6.0",
     "husky": "^9.1.7",
     "lint-staged": "^17.0.8",
+    "taze": "^21.1.0",
     "tsdown": "^0.22.3",
     "tsx": "^4.23.0",
     "typescript": "^6.0.3",
