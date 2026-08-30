@@ -9,7 +9,7 @@ A minimal, opinionated starter for building and publishing TypeScript libraries.
 - Run TypeScript directly with [tsx](https://tsx.is/)
 - Test with [Vitest](https://vitest.dev/) and V8 coverage
 - Lint and format with [ESLint](https://eslint.org/) and [`@dhzh/eslint-config`](https://github.com/tinywaves/eslint-config)
-- Enforce conventional commits with Commitlint and Husky
+- Enforce conventional commits with Commitlint and [prek](https://prek.j178.dev/)
 - Manage releases with [bumpp](https://github.com/antfu-collective/bumpp)
 - Generate GitHub releases from tags with GitHub Actions
 
