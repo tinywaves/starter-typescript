@@ -2,7 +2,7 @@
   "name": "starter-typescript",
   "type": "module",
   "version": "1.3.15",
-  "packageManager": "pnpm@12.4.2",
+  "packageManager": "pnpm@12.10.1",
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
@@ -35,7 +35,8 @@
       },
       "import": "./dist/index.mjs",
       "require": "./dist/index.cjs"
-    }
+    },
+    "./package.json": "./package.json"
   },
   "main": "./dist/index.cjs",
   "types": "./dist/index.d.mts",
@@ -63,20 +64,20 @@
     "version:update:w": "taze major -w"
   },
   "devDependencies": {
-    "@commitlint/cli": "^21.2.2",
-    "@commitlint/config-conventional": "^21.2.2",
-    "@dhzh/eslint-config": "^2.7.0",
-    "@j178/prek": "^0.5.3",
-    "@types/node": "^26.6.2",
-    "@vitest/coverage-v8": "^5.0.1",
+    "@commitlint/cli": "^21.2.3",
+    "@commitlint/config-conventional": "^21.2.3",
+    "@dhzh/eslint-config": "^3.1.0",
+    "@j178/prek": "^0.5.5",
+    "@types/node": "^26.6.4",
+    "@vitest/coverage-v8": "^5.0.3",
     "bumpp": "^12.3.0",
     "changelogithub": "^15.0.5",
-    "eslint": "^10.11.0",
-    "lint-staged": "^17.5.1",
-    "taze": "^21.1.0",
+    "eslint": "^10.12.0",
+    "lint-staged": "^17.6.0",
+    "taze": "^21.3.0",
     "tsdown": "^0.23.0",
-    "tsx": "^4.23.13",
+    "tsx": "^4.23.15",
     "typescript": "^6.0.3",
-    "vitest": "^5.0.1"
+    "vitest": "^5.0.3"
   }
 }
