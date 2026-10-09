@@ -6,7 +6,7 @@
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "^12.4.2",
+      "version": "^12.10.1",
       "onFail": "download"
     },
     "runtime": {
@@ -66,7 +66,7 @@
   "devDependencies": {
     "@commitlint/cli": "^21.2.3",
     "@commitlint/config-conventional": "^21.2.3",
-    "@dhzh/eslint-config": "^3.1.0",
+    "@dhzh/eslint-config": "^3.1.1",
     "@j178/prek": "^0.5.5",
     "@types/node": "^26.6.4",
     "@vitest/coverage-v8": "^5.0.3",
