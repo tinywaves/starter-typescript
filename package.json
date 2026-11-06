@@ -2,11 +2,11 @@
   "name": "starter-typescript",
   "type": "module",
   "version": "1.3.20",
-  "packageManager": "pnpm@12.16.1",
+  "packageManager": "pnpm@12.18.0",
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "^12.16.1",
+      "version": "^12.18.0",
       "onFail": "download"
     },
     "runtime": {
@@ -66,18 +66,18 @@
   "devDependencies": {
     "@commitlint/cli": "^21.2.4",
     "@commitlint/config-conventional": "^21.2.4",
-    "@dhzh/eslint-config": "^3.1.4",
-    "@j178/prek": "^0.5.9",
+    "@dhzh/eslint-config": "^3.1.5",
+    "@j178/prek": "^0.5.10",
     "@types/node": "^26.6.6",
-    "@vitest/coverage-v8": "^5.0.5",
+    "@vitest/coverage-v8": "^5.1.0",
     "bumpp": "^12.3.0",
     "changelogithub": "^15.0.5",
     "eslint": "^10.14.0",
     "lint-staged": "^17.6.0",
     "taze": "^21.3.0",
-    "tsdown": "^0.23.4",
+    "tsdown": "^0.23.7",
     "tsx": "^4.23.15",
     "typescript": "^6.0.3",
-    "vitest": "^5.0.5"
+    "vitest": "^5.1.0"
   }
 }
